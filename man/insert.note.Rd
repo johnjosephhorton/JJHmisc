@@ -1,0 +1,21 @@
+\name{insert.note}
+\alias{insert.note}
+\title{Inserts a line into a text file.}
+\usage{
+  insert.note(linenumber, note, file)
+}
+\arguments{
+  \item{linenumber}{is the line to insert the note at; the
+  note will then be at this linenumber.}
+
+  \item{note}{the the line to inserts.}
+
+  \item{file}{is the file to operate on}
+}
+\value{
+  Nothing - run for side-effect.
+}
+\description{
+  Inserts a line into a text file.
+}
+

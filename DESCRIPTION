@@ -9,3 +9,8 @@ Description: Mostly tools for working with LaTeX.
 License: GPL v3
 Collate:
     'utilities.R'
+    'createLaTeXparameters.R'
+    'get.line.R'
+    'insert.note.R'
+    'kill.lines.R'
+    'latex.column.label.R'

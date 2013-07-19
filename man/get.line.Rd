@@ -1,0 +1,19 @@
+\name{get.line}
+\alias{get.line}
+\title{Returns a line from a file.}
+\usage{
+  get.line(linenumber, file)
+}
+\arguments{
+  \item{linenumber}{is the line number of the line to
+  grab.}
+
+  \item{file}{is the file to grab the line from.}
+}
+\value{
+  A line of text.
+}
+\description{
+  Returns a line from a file.
+}
+

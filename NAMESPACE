@@ -1,1 +1,6 @@
+export(createLaTeXparameters)
+export(get.line)
+export(insert.note)
+export(kill.lines)
+export(latex.column.label)
 export(regression.table)

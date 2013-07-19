@@ -1,0 +1,23 @@
+\name{kill.lines}
+\alias{kill.lines}
+\title{Removes all lines between two line numbers in a text file.}
+\usage{
+  kill.lines(start, end, file)
+}
+\arguments{
+  \item{start}{is the line number of the start of the
+  delete block.}
+
+  \item{end}{is the line number of the end of the delete
+  block.}
+
+  \item{file}{is the name of the text file.}
+}
+\value{
+  Nothing---run for the side-effect.
+}
+\description{
+  Removes all lines between two line numbers in a text
+  file.
+}
+
