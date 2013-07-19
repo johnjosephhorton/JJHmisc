@@ -8,10 +8,16 @@ Maintainer: John Horton <john.joseph.horton@gmail.com>
 Description: Mostly tools for working with LaTeX.
 License: GPL v3
 Collate:
-    'utilities.R'
     'regression.table.R'
     'createLaTeXparameters.R'
     'get.line.R'
     'insert.note.R'
     'kill.lines.R'
     'latex.column.label.R'
+    'Codebook.Entry.R'
+    'fix.sample.size.line.R'
+    'flattenList.R'
+    'labex.row.label.R'
+    'pp.big.number.R'
+    'spanning.latex.column.label.R'
+    'write.image.R'

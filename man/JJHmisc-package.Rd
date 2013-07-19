@@ -3,11 +3,11 @@
 \alias{JJHmisc}
 \docType{package}
 \title{
-What the package does (short line)
+Collection of scripts by John Horton. 
 
 }
 \description{
-More about what it does (maybe more than one line)
+Most of these are scripts to work with LaTeX tables. 
 
 }
 \details{
@@ -16,20 +16,20 @@ Package: \tab JJHmisc\cr
 Type: \tab Package\cr
 Version: \tab 1.0\cr
 Date: \tab 2013-07-19\cr
-License: \tab What license is it under?\cr
+License: \tab GPL v3\cr
 }
 }
 \author{
-Who wrote it
+John Horton
 
-Maintainer: Who to complain to <yourfault@somewhere.net>
-
-}
-\references{
+Maintainer: John Horton  <john.joseph.horton@gmail.com>
 
 }
+\references{}
 
 \keyword{ package }
+\keyword{ LaTeX }
+\keyword{ Reproducible Research }
 \seealso{
 }
 \examples{

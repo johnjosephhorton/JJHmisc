@@ -1,0 +1,20 @@
+\name{Codebook.Entry}
+\alias{Codebook.Entry}
+\title{Creata line for a LaTeX codebook.}
+\usage{
+  Codebook.Entry(var.name, label, note)
+}
+\arguments{
+  \item{var.name}{name of the variable.}
+
+  \item{label}{is the longer, label for the note.}
+
+  \item{note}{is a note.}
+}
+\value{
+  line to be written.
+}
+\description{
+  Creata line for a LaTeX codebook.
+}
+

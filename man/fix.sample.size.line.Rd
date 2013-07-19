@@ -1,0 +1,18 @@
+\name{fix.sample.size.line}
+\alias{fix.sample.size.line}
+\title{Takes the sample size line from a table and replaces all N's with the big.mark notation
+E.g., 1234 becomes 1,234}
+\usage{
+  fix.sample.size.line(table.line)
+}
+\arguments{
+  \item{table.line}{LaTeX line of sample sizes.}
+}
+\value{
+  Line w/ all the numbers properly commented.
+}
+\description{
+  Takes the sample size line from a table and replaces all
+  N's with the big.mark notation E.g., 1234 becomes 1,234
+}
+

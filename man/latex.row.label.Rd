@@ -1,0 +1,26 @@
+\name{latex.row.label}
+\alias{latex.row.label}
+\title{Creates a row label for a LaTeX table.}
+\usage{
+  latex.row.label(width, label, rule.pts = 0,
+    new.lines = 0, new.line.char = FALSE)
+}
+\arguments{
+  \item{width}{of cell, in cm.}
+
+  \item{rule.pts}{is how much to indent the row (say to
+  created a nested variable)}
+
+  \item{new.lines}{is the number of new lines before row
+  text}
+
+  \item{new.line.char}{is boolean for whether to append a
+  newline character}
+}
+\value{
+  returns text to insert.
+}
+\description{
+  Creates a row label for a LaTeX table.
+}
+

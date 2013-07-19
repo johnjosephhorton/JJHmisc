@@ -1,0 +1,24 @@
+\name{flattenList}
+\alias{flattenList}
+\title{Takes a list serving as a dictionary and appends a string to the key of each list
+Suppose we have 'dog = list(legs = 4, smell = good)'
+flattenList('DOG', list(legs = 4, smell = good))
+return list(DOGlegs = 4, DOGsmell = good)}
+\usage{
+  flattenList(first.key, values)
+}
+\arguments{
+  \item{first.key}{the new key string to append}
+
+  \item{values}{the list serving as a dictionary}
+}
+\value{
+  new.list
+}
+\description{
+  Takes a list serving as a dictionary and appends a string
+  to the key of each list Suppose we have 'dog = list(legs
+  = 4, smell = good)' flattenList('DOG', list(legs = 4,
+  smell = good)) return list(DOGlegs = 4, DOGsmell = good)
+}
+
