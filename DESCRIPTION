@@ -1,11 +1,11 @@
 Package: JJHmisc
 Type: Package
-Title: What the package does (short line)
+Title: Collection of scripts that I've found useful.
 Version: 1.0
 Date: 2013-07-19
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: John Horton
+Maintainer: John Horton <john.joseph.horton@gmail.com>
+Description: Mostly tools for working with LaTeX.
+License: GPL v3
 Collate:
     'utilities.R'
