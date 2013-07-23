@@ -21,3 +21,4 @@ Collate:
     'pp.big.number.R'
     'spanning.latex.column.label.R'
     'write.image.R'
+    'connectDB.R'
