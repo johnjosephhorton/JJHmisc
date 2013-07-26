@@ -1,6 +1,6 @@
 \name{connectDB}
 \alias{connectDB}
-\title{Creates a connection to the DB and returns connection as a global variable, con}
+\title{#' Creates a connection to the DB and returns connection as a global variable, con}
 \usage{
   connectDB(credentials)
 }
@@ -12,7 +12,7 @@
   None - run for side-effects.
 }
 \description{
-  Creates a connection to the DB and returns connection as
-  a global variable, con
+  #' Creates a connection to the DB and returns connection
+  as a global variable, con
 }
 

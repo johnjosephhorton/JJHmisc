@@ -1,0 +1,21 @@
+\name{zip}
+\alias{zip}
+\title{Approximates the Python 'zip' function - creates a list that serves as a dictionary between
+the keys and values vectors. They keys are coerced into characters.}
+\usage{
+  zip(keys, values)
+}
+\arguments{
+  \item{keys}{the vector you want to be the keys}
+
+  \item{values}{the vector you want the keys to map to .}
+}
+\value{
+  A dictionary mapping the keys to values
+}
+\description{
+  Approximates the Python 'zip' function - creates a list
+  that serves as a dictionary between the keys and values
+  vectors. They keys are coerced into characters.
+}
+

@@ -6,7 +6,8 @@ Date: 2013-07-19
 Author: John Horton
 Maintainer: John Horton <john.joseph.horton@gmail.com>
 Description: Mostly tools for working with LaTeX.
-Depends: RPostgreSQL
+Depends:
+    RPostgreSQL
 License: GPL v3
 Collate:
     'regression.table.R'
@@ -23,3 +24,4 @@ Collate:
     'spanning.latex.column.label.R'
     'write.image.R'
     'connectDB.R'
+    'zip.R'

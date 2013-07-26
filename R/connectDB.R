@@ -1,4 +1,4 @@
-#' Creates a connection to the DB and returns connection as a global variable, con
+#' #' Creates a connection to the DB and returns connection as a global variable, con
 #'
 #' @param credentials - list containing connection information 
 #' @return None - run for side-effects.  
