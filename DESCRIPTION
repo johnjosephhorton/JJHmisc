@@ -24,4 +24,4 @@ Collate:
     'spanning.latex.column.label.R'
     'write.image.R'
     'connectDB.R'
-    'zip.R'
+    'dzip.R'

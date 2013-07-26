@@ -7,7 +7,7 @@
 #' @export 
 
 
-zip <- function(keys, values){
+dzip <- function(keys, values){
     if(length(keys) != length(values)){
         print("Vectors have to be the same length!")
         return(NULL)
