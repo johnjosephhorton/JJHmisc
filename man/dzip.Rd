@@ -1,9 +1,9 @@
-\name{zip}
-\alias{zip}
+\name{dzip}
+\alias{dzip}
 \title{Approximates the Python 'zip' function - creates a list that serves as a dictionary between
 the keys and values vectors. They keys are coerced into characters.}
 \usage{
-  zip(keys, values)
+  dzip(keys, values)
 }
 \arguments{
   \item{keys}{the vector you want to be the keys}
