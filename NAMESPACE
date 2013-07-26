@@ -1,6 +1,7 @@
 export(Codebook.Entry)
 export(connectDB)
 export(createLaTeXparameters)
+export(dzip)
 export(fix.sample.size.line)
 export(flattenList)
 export(get.line)
