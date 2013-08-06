@@ -1,3 +1,4 @@
+
 #' Takes an R list and creates commands for each of the keys.
 #'
 #' @param key.list list of keys and values. 
@@ -7,6 +8,7 @@
 #' @export
 
 createLaTeXparameters <- function(key.list, parameter.file.location, append = FALSE){
+    createCommand <- function(command.name, value) paste("\\newcommand{\\", command.name, "}{", value, "}", sep="")
     command.list <- sapply(names(key.list), function(key) createCommand(key, key.list[[key]]))
     if(append){
         fileConn <- file(parameter.file.location, open = "a")
