@@ -1,0 +1,18 @@
+\name{render}
+\alias{render}
+\title{Creata line for a LaTeX codebook.}
+\usage{
+  render(x, lst)
+}
+\arguments{
+  \item{x}{tempalte}
+
+  \item{lst}{a hash table list of replacement rules}
+}
+\value{
+  filled-in template
+}
+\description{
+  Creata line for a LaTeX codebook.
+}
+

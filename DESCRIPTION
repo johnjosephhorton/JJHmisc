@@ -25,3 +25,4 @@ Collate:
     'write.image.R'
     'connectDB.R'
     'dzip.R'
+    'render.R'
