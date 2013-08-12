@@ -1,0 +1,18 @@
+\name{get_field_names}
+\alias{get_field_names}
+\title{Creata line for a LaTeX codebook.}
+\usage{
+  get_field_names(con, tablename)
+}
+\arguments{
+  \item{con}{connection to database}
+
+  \item{tablename}{to check, without schema}
+}
+\value{
+  column of column names
+}
+\description{
+  Creata line for a LaTeX codebook.
+}
+
