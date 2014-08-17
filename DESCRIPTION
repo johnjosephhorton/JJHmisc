@@ -7,30 +7,5 @@ Author: John Horton
 Maintainer: John Horton <john.joseph.horton@gmail.com>
 Description: Mostly tools for working with LaTeX.
 Depends:
-    RPostgreSQL
-License: GPL v3
-Collate:
-    'regression.table.R'
-    'createLaTeXparameters.R'
-    'get.line.R'
-    'insert.note.R'
-    'kill.lines.R'
-    'latex.column.label.R'
-    'Codebook.Entry.R'
-    'fix.sample.size.line.R'
-    'flattenList.R'
-    'labex.row.label.R'
-    'pp.big.number.R'
-    'spanning.latex.column.label.R'
-    'write.image.R'
-    'connectDB.R'
-    'dzip.R'
-    'render.R'
-    'get_field_names.R'
-    'starLabel.R'
-    'tableContinuous2.R'
-    'tableNominal2.R'
-    'big.letter.theme.R'
-    'wasItUsed.R'
-    'writeImage.R'
-    'clusterSE.R'
+    testthat (>= 0.7.1),
+License: NA
