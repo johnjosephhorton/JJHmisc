@@ -1,0 +1,21 @@
+\name{AddTableNote}
+\alias{AddTableNote}
+\title{Writes an list of regression models generated via table to a file.}
+\usage{
+AddTableNote(stargazer.object, out.file, note, adjust = 3)
+}
+\arguments{
+  \item{stargazer.object}{is a list of models.}
+
+  \item{out.file}{path to where table should be written}
+
+  \item{note}{the note to add at the bottom of the table}
+}
+\value{
+Nothing - writes to file out.file
+}
+\description{
+Writes an list of regression models generated via table to
+a file.
+}
+
