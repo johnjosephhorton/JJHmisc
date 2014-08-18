@@ -11,8 +11,9 @@ AddTableNote <- function(stargazer.object, out.file, note, adjust = 3){
      last three lines of stargazer output are useless."
     n <- length(stargazer.object)
     write(stargazer.object[1:(n - adjust)], out.file)
+    write(c("\\end{tabular}"))
     write(note, out.file, append = TRUE)
-    write(c("\\end{tabular}", "\\end{table}"), out.file, append = TRUE)
+    write(c("\\end{table}"), out.file, append = TRUE)
 } 
 
 

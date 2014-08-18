@@ -1,5 +1,6 @@
 export(AddTableNote)
 export(Codebook.Entry)
+export(GetData)
 export(big.letter.theme)
 export(clusterSE)
 export(createLaTeXparameters)
