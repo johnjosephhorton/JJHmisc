@@ -7,5 +7,4 @@ Author: John Horton
 Maintainer: John Horton <john.joseph.horton@gmail.com>
 Description: Mostly tools for working with LaTeX.
 Depends:
-    testthat (>= 0.7.1),
 License: NA
