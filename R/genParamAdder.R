@@ -29,15 +29,3 @@ genParamAdder <- function (parameter.file) {
     }
     f
 }
-
-genParamAdder <- function(parameter.file){
-    if (file.exists(parameter.file)) {
-        file.remove(parameter.file)
-    }
-    f <- function(name, value){
-        line <- paste0("\\newcommand{", name, "}{", value, "}")
-        write(line, parameter.file, ncolumns = 1, append = TRUE)
-    }
-    f
-}
-
