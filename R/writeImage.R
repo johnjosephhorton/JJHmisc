@@ -28,7 +28,7 @@ writeImage <- function (g, file.name.no.ext, width = 15, height = 8, path = "../
               height = pdf.height)
   write.image(svg.file.name, g, format = "svg", width = pdf.width, 
               height = pdf.height)
-  if (include.text.wrapper){
+  if (include.tex.wrapper){
       tex.file.name <- paste0(path, file.name.no.ext, ".tex")
       replacements = list("<<POSITION>>" = position
                         , "<<WIDTH>>" = line.width
