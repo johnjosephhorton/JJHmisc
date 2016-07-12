@@ -13,7 +13,7 @@ AddTableNote <- function(stargazer.object, out.file, note, adjust = 3, table.typ
     write(stargazer.object[1:(n - adjust)], out.file)
     write(c("\\end{tabular}"), out.file, append = TRUE)
     write(note, out.file, append = TRUE)
-    write(c(paste0("\\end{", table.type, "table}")), out.file, append = TRUE)
+    write(c(paste0("\\end{", table.type, "}")), out.file, append = TRUE)
 } 
 
 
