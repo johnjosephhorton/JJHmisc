@@ -6,14 +6,14 @@
 #' @return Nothing - writes to file out.file
 #' @export
 
-AddTableNote <- function(stargazer.object, out.file, note, adjust = 3){
+AddTableNote <- function(stargazer.object, out.file, note, adjust = 3, table.type = "table"){
     "Adds a table note to a stargazer table. It assumes that the
      last three lines of stargazer output are useless."
     n <- length(stargazer.object)
     write(stargazer.object[1:(n - adjust)], out.file)
     write(c("\\end{tabular}"), out.file, append = TRUE)
     write(note, out.file, append = TRUE)
-    write(c("\\end{table}"), out.file, append = TRUE)
+    write(c(paste0("\\end{", table.type, "table}")), out.file, append = TRUE)
 } 
 
 
