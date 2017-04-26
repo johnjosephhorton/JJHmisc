@@ -8,3 +8,4 @@ Maintainer: John Horton <john.joseph.horton@gmail.com>
 Description: Mostly tools for working with LaTeX.
 Depends:
 License: NA
+RoxygenNote: 6.0.1
