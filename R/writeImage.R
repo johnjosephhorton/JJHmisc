@@ -13,7 +13,7 @@
 #' @export
 
 writeImage <- function (g, file.name.no.ext, width = 15, height = 8, path = "../../writeup/plots/"
-          , position = "h", line.width = "0.8", caption = "", notes = "", include.tex.wrapper = FALSE){
+          , position = "h", line.width = "0.8", caption = "", notes = "", include.tex.wrapper = FALSE, svg.include = FALSE){
   png.width <- width * 72
   png.height <- height * 72
   png.file.name <- paste0(path, file.name.no.ext, ".png")
@@ -26,8 +26,10 @@ writeImage <- function (g, file.name.no.ext, width = 15, height = 8, path = "../
               height = png.height)
   write.image(pdf.file.name, g, format = "pdf", width = pdf.width, 
               height = pdf.height)
-  write.image(svg.file.name, g, format = "svg", width = pdf.width, 
-              height = pdf.height)
+  if (svg.include){
+      write.image(svg.file.name, g, format = "svg", width = pdf.width, 
+                  height = pdf.height)
+  }   
   if (include.tex.wrapper){
       tex.file.name <- paste0(path, file.name.no.ext, ".tex")
       replacements = list("<<POSITION>>" = position
